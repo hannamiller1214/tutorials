@@ -1,3 +1,4 @@
+#Check an array of emails
 def email_checker(add):
     add_arr = add.split("@")
     return add_arr[1] == "gmail.com"
@@ -17,6 +18,7 @@ def sum_greater_than_one_hundred(arr):
     else:
         return False
 
+#Reverse a string
 def reverse_str(str):
     reverse_string = []
     for char in str:
